@@ -1,5 +1,13 @@
 Ben Eater’s 8-bit CPU (Logisim Evolution v3.8.0)
+
 This is my implementation of an 8-bit breadboard CPU inspired by Ben Eater’s design, recreated in Logisim Evolution v3.8.0. It contains all the main components needed for a functioning CPU, along with supporting registers and flags.
+
+Opening the Project:
+I. Download and install Logisim Evolution v3.8.0.
+II. Open the .circ file in Logisim.
+III. Load the ROM contents (if needed) from the provided .rom files.
+
+
 Components:
 1. main - Top level circuit containing the main CPU
 2. CLK - Clock generator for timing the CPU operations.
@@ -13,7 +21,4 @@ Components:
 10. STEP_COUNTER - Keeps track of micro-instruction steps.
 11. zero_flag - Indicates if the last operation resulted in zero.
 12. FLAGS – Stores CPU status flags.
-Opening the Project:
-I. Download and install Logisim Evolution v3.8.0.
-II. Open the .circ file in Logisim.
-III. Load the ROM contents (if needed) from the provided .rom files.
+
